@@ -5,6 +5,8 @@
 #    https://aka.ms/AA7q20u
 #
 name: example
+extensions: 
+- name: dapr
 services:
 - name: frontend
   project: src/frontend/frontend.csproj
